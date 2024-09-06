@@ -1,0 +1,15 @@
+html, p{
+    height:100vh;
+}
+
+p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    text-shadow: 3cm;
+    background-color: antiquewhite;
+    background-image: url("hjelp.jpg");
+}
