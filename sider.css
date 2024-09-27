@@ -1,0 +1,43 @@
+.gjennstand{grid-area: header;}
+.gjennstand2{grid-area: main;}
+.gjennstand3{grid-area: menu;}
+.gjennstand4{grid-area: footer;}
+
+.gjennstand{
+    background-color:  blueviolet;
+    color: white;
+
+    
+}
+
+
+.gjennstand2{
+    background-color: black;
+    color: white;
+
+}
+
+.gjennstand4{
+    background-color: blueviolet;
+    color: white;
+    justify-content: right;
+    align-self: right;
+}
+
+
+.grid-container{
+    display: grid;
+    min-height: 100vh;
+    column-gap: 0px;
+    row-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto 1fr auto;
+    grid-template-areas: 
+    'header header header header'
+    'main main main main'
+    'main main main main'
+    'main main main main'
+    'main main main main'
+    'footer footer footer footer';
+
+}

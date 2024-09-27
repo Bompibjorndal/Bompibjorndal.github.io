@@ -1,0 +1,90 @@
+.gjennstand{grid-area: header;}
+.gjennstand2{grid-area: main;}
+.gjennstand3{grid-area: menu;}
+.gjennstand4{grid-area: footer;}
+
+.gjennstand{
+    background-color: blueviolet;
+        color: white;
+
+
+   
+}
+    
+
+
+
+.gjennstand2{
+    background-color: black;
+    color: white;
+
+}
+
+.gjennstand3{
+    position: sticky;
+    background-color: blueviolet;
+    color: black;
+  
+}
+
+.gjennstand4{
+    bottom: 0;
+    align-self: bottom;
+    position: sticky;
+    background-color: blueviolet;
+    border-top: 10%;
+    border-top-color: black;
+    justify-content: right;
+    align-self: right;
+}
+.grid-container{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    column-gap: 0px;
+    row-gap: 0px;
+    grid-gap: 0px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'header header header header menu'
+    'main main main main menu'
+    'main main main main menu'
+    'main main main main menu'
+    'main main main main menu'
+    'footer footer footer footer menu';
+
+}
+
+
+
+
+       
+        .menybobble{
+            position: sticky;
+         }
+    
+
+            .forbobble2{
+                margin-top: 30%;
+                color: black;
+                justify-content: center;
+                align-self: left;
+
+            }
+
+        .flex-container{
+            margin-top: 5%;
+            width: 95%;
+            height:flex;
+            border: 50px;
+            border-radius: 15%;
+            border-color: black;
+            display: flex;
+            background-color: white;
+            position:sticky;
+            
+
+        }
+        
