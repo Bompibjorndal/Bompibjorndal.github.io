@@ -1,0 +1,30 @@
+
+.frosk{
+    grid-area: 'frosk';
+    background-color: green;
+    color: burlywood;
+}
+/* frosker er verdt mest og er derfor headeren */
+
+.torsk{
+    grid-area: 'torsk';
+    color: white;
+
+}
+/* trosk er hovedretten */
+
+.kylling{
+    grid-area: 'kylling';
+}
+
+/* kylling fra meny */
+
+.padde{
+    grid-area: 'padde';
+}
+
+/* padder er mindreverdt og er derfor på bunnen.  */
+
+.main{
+    background-color: linear-gradient; red 50% green 50%
+}
